@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Nations Website</title>
+    <style>
+    /*This is the css code*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+        /*This is the paragraph color and alignment*/
+        p {
+          color: black;
+          text-align: left;
+        }
+        /*This is the background color and padding of header*/
+        header {
+            background-color: #0077cc;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        /*This is the navigation bar code*/
+        /* Add the following CSS code for navigation bar animation */
+         nav {
+            background-color: #333;
+            color: white;
+            padding: .2rem;
+            text-align: center;
+       }
+          nav a {
+          text-decoration: none; 
+          font-size: .7rem;
+          text-transform: 
+          uppercase; margin: 0 .8rem;
+          color: white; 
+          font-family: russo one; 
+          position: relative;
+       }
+         nav a:after{
+           content: "";
+          position: absolute;
+           width: 100%;
+           height: .1rem;
+           background-color: white;
+           bottom: 0;
+          left: 0;
+           transform: scaleX(0);
+           transform-origin: bottom right;
+           transition: transform 0..25s linear;
+         } 
+        nav a:hover:after {
+            transform-origin: bottom left;
+            transform: scaleX(1);
+         }
+        section {
+            padding: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        img{
+          border-radius: .8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>United Nations</h1>
+        <!--This is the navigation bar-->
+    </header>
+    <div class>
+    <nav>
+        <a href="#">About</a>
+        <a href="#issues">Issues</a>
+        <a href="#members">Members</a>
+        <a href="#United Nation">what's is UN</a>
+        <a href="#contact">flag</a>
+    </nav>
+    </div>
+    <!--Thi is the information section-->
+    <section id="about">
+        <h2>About the United Nations</h2>
+        <p>
+            The United Nations is an international organization founded in 1945 to promote peace,
+            security, and cooperation among member countries and to address global challenges.
+        </p>
+    </section>
+    <section id="issues">
+        <h2>Global Issues</h2>
+        <p>
+            The UN addresses a wide range of global issues, including poverty, climate change, human rights,
+            and international conflicts, with the aim of creating a better and more sustainable world.
+        </p>
+    </section>
+    <section id="members">
+        <h2>Member States</h2>
+        <p>
+            The United Nations has 193 member states that work together to achieve common goals and address
+            global challenges through diplomatic and cooperative efforts.
+        </p>
+    </section>
+        </section>
+    <section id="United Nation">
+        <h2>What is the United Nations UN and what is the purpose of it?</h2>
+        <p>
+        The United Nations (UN) is an international organization founded on October 24, 1945, after the conclusion of World War II. It was established to promote cooperation and maintain international peace and security among nations. The UN replaced the League of Nations and has since become the largest and most prominent international organization in the world.
+        <br>
+        The UN is structured with various bodies, including the General Assembly, the Security Council, the International Court of Justice, the Secretariat, and specialized agencies, each with specific functions and responsibilities. Its member states, currently numbering 193, come together to discuss and address global challenges with the goal of creating a more peaceful and just world.
+        </p>
+    </section>
+    <section id="contact">
+        <h2>united Nation flag</h2>
+        <img src="UN.png" alt="United Nation flag" style="width:8.0rem;height:8.0rem;">
+        </p>
+    </section>
+    <footer>
+        <p>&copy; 2023 United Nations. All rights reserved
+    </footer>
+
+</body>
+</html>
